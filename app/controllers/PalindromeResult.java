@@ -21,7 +21,6 @@ public class PalindromeResult extends Controller {
 		}
 		if(temp == number)
 			return ok(number + " is a palindrome number.");
-		else
-			return ok(number + " is not a palindrome number.");
+		return ok(number + " is not a palindrome number.");
 	}
 }

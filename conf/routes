@@ -6,7 +6,9 @@
 GET     /                           controllers.HomeController.index
 GET    /explore                     controllers.HomeController.explore
 GET    /tutorial                    controllers.HomeController.tutorial
-GET    /test                    controllers.HomeController.test
+GET    /test                    	controllers.HomeController.test
+GET    /palindrome					controllers.PalindromeController.enterPalindrome
+GET    /palindromeResult		    controllers.PalindromeResult.check
 
 
 # Map static resources from the /public folder to the /assets URL path

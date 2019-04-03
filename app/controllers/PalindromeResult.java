@@ -12,9 +12,7 @@ import play.mvc.Result;
  */
 public class PalindromeResult extends Controller {
 
-	public Result check() {
-		String num = request().getQueryString("Number");
-		int number = Integer.parseInt(num);
+	public Result check(Integer number) {
 		int numberCopy = number;
 		int temp = 0;
 		while(numberCopy%10 != 0) {

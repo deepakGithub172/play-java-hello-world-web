@@ -8,7 +8,7 @@ GET    /explore                     controllers.HomeController.explore
 GET    /tutorial                    controllers.HomeController.tutorial
 GET    /test                    	controllers.HomeController.test
 GET    /palindrome					controllers.PalindromeController.enterPalindrome
-GET    /palindromeResult		    controllers.PalindromeResult.check
+GET    /palindromeResult		    controllers.PalindromeResult.check(number: Integer)
 
 
 # Map static resources from the /public folder to the /assets URL path

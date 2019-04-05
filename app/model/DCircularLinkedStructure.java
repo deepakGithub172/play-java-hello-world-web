@@ -35,7 +35,6 @@ public class DCircularLinkedStructure {
 	}
 
 	public void addElement(int value) {
-
 		if(threshold == elementCount)
 			throw new IllegalArgumentException("Reached threshold limit.");
 

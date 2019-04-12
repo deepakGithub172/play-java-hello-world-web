@@ -1,7 +1,5 @@
 package controllers;
 
-import model.Test;
-import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 
@@ -27,13 +25,6 @@ public class HomeController extends Controller {
     
     public Result tutorial() {
         return ok(views.html.tutorial.render());
-    }
-    
-    public Result test() {
-    	Test test = new Test();
-    	test.setId(1);
-    	test.setName("Test");
-        return ok(Json.toJson(test));
     }
 
 }

@@ -8,3 +8,4 @@ lazy val root = (project in file(".")).enablePlugins(PlayJava)
 scalaVersion := "2.12.8"
 
 libraryDependencies += guice
+libraryDependencies += "com.couchbase.client" % "java-client" % "2.7.0"

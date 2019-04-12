@@ -8,3 +8,4 @@ build
 /.settings
 /RUNNING_PID
 /.gradle
+/bin/
